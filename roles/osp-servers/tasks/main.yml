@@ -14,7 +14,7 @@
     meta: "group={{ item.1.group }}, deployment_name={{ item.1.deployment_name }}"
     userdata: |
       #!/bin/bash
-      cat /root/openstack.pub >> /home/cloud-user/.ssh/authorized_keys
+      cat /root/.ssh/id_rsa.pub >> /home/cloud-user/.ssh/authorized_keys
   with_subelements: 
     - "{{ osp_servers }}"
     - meta
