@@ -6,4 +6,4 @@ export OPENTLC_PASSWORD=
 export GITHUB_REPO=https://github.com/hunsiri/nextgen_ansible_advanced_homework
 export JQ_REPO_BASE=http://www.opentlc.com/download/ansible_bootcamp
 export REGION=us-east-1
-export MAIL_ID=jittawat.h@dcs.premier.co.th
+export MAIL_ID=psrivast@redhat.com
