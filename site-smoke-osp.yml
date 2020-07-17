@@ -4,7 +4,7 @@
   #- name: OpenStack servers
   - name: Curl website
     uri:
-      url: http://frontend1.{{ GUID }}.example.opentlc.com/ansible
+      url: http://frontend1.3bfe.example.opentlc.com/ansible
   - name: Fail if 'Ansible has done its job' is not in the page content
     fail:
     when: "'Ansible has done its job' not in webpage.results[0].content"
