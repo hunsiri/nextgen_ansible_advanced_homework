@@ -1,5 +1,6 @@
 - name: Create Project
   hosts: localhost
+  become: yes 
   tasks:
   - name: Add tower project
     tower_project:
