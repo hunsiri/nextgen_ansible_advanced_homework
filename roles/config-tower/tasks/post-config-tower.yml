@@ -1,11 +1,11 @@
 - name: Create Homework Assignment project
   tower_project:
-    name: "00_Homework Assignment"
+    name: "{{ proj_name }}"
     description: "00_Homework Assignment"
-    organization: "Default"
+    organization: "{{ org_name }}"
     scm_type: "git"
-    scm_url: "{{ github_repo }}"
-    scm_branch: "master"
+    scm_url: "{{ scm_url }}"
+    scm_branch: "{{ scm_branch }}"
     scm_clean: yes
     scm_delete_on_update: no
     scm_update_on_launch: yes
