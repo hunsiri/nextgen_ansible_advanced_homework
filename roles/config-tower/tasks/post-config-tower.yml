@@ -3,6 +3,12 @@
     name: "00_Homework Assignment"
     description: "00_Homework Assignment"
     organization: "Default"
+    scm_type: "git"
+    scm_url: "{{ GITHUB_REPO }}"
+    scm_branch: "master"
+    scm_clean: yes
+    scm_delete_on_update: no
+    scm_update_on_launch: yes
     state: present
     #tower_config_file: "~/tower_cli.cfg"
 
