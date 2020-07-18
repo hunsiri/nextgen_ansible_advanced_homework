@@ -6,10 +6,10 @@
       name: "Joey test"
       description: "Joey test project"
       organization: "Default"
-      scm_type: "git"
-      scm_url: "https://github.com/hunsiri/nextgen_ansible_advanced_homework"
-      scm_branch: "Master"
-      scm_delete_on_update: yes
-      scm_update_on_launch: yes
+      #scm_type: "git"
+      #scm_url: "https://github.com/hunsiri/nextgen_ansible_advanced_homework"
+      #scm_branch: "Master"
+      #scm_delete_on_update: yes
+      #scm_update_on_launch: yes
       state: present
-      tower_config_file: "~/.tower_cli.cfg"
+      #tower_config_file: "~/.tower_cli.cfg"
