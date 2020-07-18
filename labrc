@@ -1,7 +1,8 @@
 export OSP_GUID=3bfe
 export OPENTLC_ID=jittawat.h-dcs.premier.co.th
 export OSP_DOMAIN=blue.osp.opentlc.com
-export TOWER_GUID=1bff
+export TOWER_GUID=160e
+export OPENTLC_LOGIN=jittawat.h-dcs.premier.co.th
 export OPENTLC_PASSWORD=
 export GITHUB_REPO=https://github.com/hunsiri/nextgen_ansible_advanced_homework
 export JQ_REPO_BASE=http://www.opentlc.com/download/ansible_bootcamp
