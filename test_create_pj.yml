@@ -1,5 +1,5 @@
 - name: Create Project
-  hosts: all
+  hosts: tower1.160e.internal
   tasks:
   - name: Add tower project
     tower_project:
