@@ -10,6 +10,7 @@
     scm_delete_on_update: no
     scm_update_on_launch: yes
     state: present
+    tower_host: tower1.{{tower_GUID}}.example.opentlc.com
     #tower_config_file: "~/tower_cli.cfg"
 
 - name: Machine Credentail to connect to workstation using openstack.pub
